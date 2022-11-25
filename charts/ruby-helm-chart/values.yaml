@@ -49,7 +49,7 @@ service:
 
 route:
   enabled: true 
-  host: ruby-helm-test1.apps.snoc.smanager.int
+  #host: ruby-helm-test1.apps.snoc.smanager.int
   name: rt-ruby 
   labels:
   annotations:
