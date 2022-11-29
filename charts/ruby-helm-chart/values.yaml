@@ -7,7 +7,7 @@ deploymentStrategy:
     maxUnavailable: 25%
   type: RollingUpdate
 
-replicaCount: 2 
+replicaCount: 5 
 
 image:
   repository: quay.io/paulo_luizetto/ruby-hello-world-image/herp
@@ -77,7 +77,7 @@ resources:
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   limits:
     cpu: 50m
-    memory: 150Mi
+    memory: 200Mi
   requests:
     cpu: 20m
     memory: 75Mi
