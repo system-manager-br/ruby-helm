@@ -7,7 +7,7 @@ deploymentStrategy:
     maxUnavailable: 25%
   type: RollingUpdate
 
-replicaCount: 3 
+replicaCount: 5 
 
 image:
   repository: quay.io/paulo_luizetto/ruby-hello-world-image/herp
