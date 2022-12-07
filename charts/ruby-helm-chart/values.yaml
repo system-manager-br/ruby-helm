@@ -7,10 +7,10 @@ deploymentStrategy:
     maxUnavailable: 25%
   type: RollingUpdate
 
-replicaCount: 5 
+replicaCount: 2 
 
 image:
-  repository: quay.io/paulo_luizetto/ruby-hello-world-image/herp
+  repository: quay.io/system_manager_br/ruby-hello-world:v1.0-ubi8r27 
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0"
@@ -77,7 +77,7 @@ resources:
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   limits:
     cpu: 50m
-    memory: 300Mi
+    memory: 100Mi
   requests:
     cpu: 20m
     memory: 75Mi

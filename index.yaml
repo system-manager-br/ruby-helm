@@ -3,12 +3,12 @@ entries:
   ruby-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-29T17:58:18.470534299-03:00"
+    created: "2022-12-07T15:31:47.708275159-03:00"
     description: A Helm chart for Kubernetes
-    digest: efefa93cd3ea721c713572516eeda6f152137f7f4c8de16d0083e6420b25b7e6
+    digest: 6bb49961ea52cb3df7e6d37eef13ea03cdf9af3d93c1d8278dbd1479b06e25ea
     name: ruby-helm-chart
     type: application
     urls:
     - https://system-manager-br.github.io/ruby-helm/ruby-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-29T17:58:18.407871327-03:00"
+generated: "2022-12-07T15:31:47.67112799-03:00"
