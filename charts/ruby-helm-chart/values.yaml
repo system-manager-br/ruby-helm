@@ -7,13 +7,13 @@ deploymentStrategy:
     maxUnavailable: 25%
   type: RollingUpdate
 
-replicaCount: 1 
+replicaCount: 2 
 
 image:
   repository: quay.io/system_manager_br/ruby-hello-world
   pullPolicy: Always 
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0-ubi8r29"
+  tag: "v1.0-ubi8r30"
 
 imagePullSecrets: []
 nameOverride: ""
