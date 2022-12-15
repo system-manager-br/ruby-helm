@@ -13,7 +13,7 @@ image:
   repository: quay.io/system_manager_br/ruby-hello-world
   pullPolicy: Always 
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0-ubi8r30"
+  tag: "v1.0-ubi8r27"
 
 imagePullSecrets: []
 nameOverride: ""
