@@ -9,6 +9,6 @@ entries:
     name: ruby-helm-chart
     type: application
     urls:
-    - https://system-manager-br.github.io/ruby-helm/ruby-helm-chart-0.1.0.tgz
+    - http://helm-repo.private-helm-repository.svc.cluster.local:8080/charts/ruby-helm/ruby-helm-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2022-12-15T08:51:24.289013102-03:00"
